@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title> TerraForm </title>
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,600" rel="stylesheet">
+	<link rel="stylesheet" href="Webpage/index.css">
+</head>
+
+<body>
+	<img class="background" src="Webpage/Writeup_Assets/gifs/bloop.gif"/>
+	<img class="background" src="Webpage/Writeup_Assets/gifs/bloop2.gif"/>
+	<img class="background" src="Webpage/Writeup_Assets/gifs/bloop3.gif"/>
+	<img class="background" src="Webpage/Writeup_Assets/gifs/bloop5.gif"/>
+	<img class="background" src="Webpage/Writeup_Assets/gifs/bloop11.gif"/>
+	<div class="project-title">
+		<h1> TerraForm </h1>
+		<h2> Procedural Generation of Earth-like Ecosystems </h2>
+	</div>
+
+	<div class="project-subtitle">
+		<span class="subtitle-element"> Advised by Holly Rushmeier</span>
+		<span class="subtitle-element"> <a href="Webpage/CPSC490_Proposal_MocanVillars.pdf" target="_blank"> Proposal (PDF)</a></span>
+		<span class="subtitle-element"> <a href="Webpage/CPSC490_Report_Mocan.pdf" target="_blank"> Report (PDF)</a></span>
+		<span class="subtitle-element"> <a href="Webpage/490_Mocan_Code.zip" target="_blank"> Source Code (ZIP)</a></span>
+		<span class="subtitle-element"> <a href="https://github.com/CezarMocan/TerraFormMerged" target="_blank"> GitHub</a></span>
+	</div>
+
+	<div class="abstract">
+		Procedural generation is a growing topic within the gaming community, with recent games such as Spore or No Man’s Sky which allow for almost infinite in-game universe exploration of automatically generated unique planets, flora and fauna. Not only can procedural generation provide a form of entertainment, but it can also have incredible benefits if used in conjunction with the human mind and craft, in order to design digital environments, creatures or objects. There is great potential for this yet young wing of game programming, and our project aims to understand and implement the basics of using procedural techniques in order to explore different levels of digital world creation.<br/><br/>
+		The goal of this project is building a planetary simulator able to produce varied types of terrain, trees and creatures from (almost) scratch—through using the least possible amount of pre-existing assets. We are well aware of the fact that even the most iconic games using procedural generation still use a wide range of 3D designed prefabs, and therefore we do not advocate for using none. As in most situations, a hybridized approach, a productive human-computer interaction in designing and building the simulation world is probably the most fruitful path.
+		The project has two almost disjoint aspects: the game world and the flora, tackled by Spencer Villars’s CPSC 490 project, and the fauna, tackled by Cezar Mocan’s project. This report focuses on the latter, investigating the challenges and lessons learned in creating procedural 3D animals from zero and placing them in the simulator provided by the other half of the project.
+	</div>
+
+	<div class="images">
+		<div class="left">
+			<img src="Webpage/Writeup_Assets/allosaurus.png"/>
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/2.png"/>
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/3_under.png"/>
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/5.png"/>
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/Arm_Skeleton.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/arm1.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/hardcore_mutation.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/humanoid_mutation.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/leg2.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/many_hands.gif"/>
+			<img src="Webpage/Writeup_Assets/Mutation/mesh_mutation3.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/skeleton_mutation.png"/>
+			<img src="Webpage/Writeup_Assets/PutTogetherBody/LibSample.png"/>
+			<img src="Webpage/Writeup_Assets/PutTogetherBody/Creature2.png"/>
+			<img src="Webpage/Writeup_Assets/Movement/movement_2.png"/>
+			<img src="Webpage/Writeup_Assets/Movement/movement_bloop.gif"/>
+			<img src="Webpage/Writeup_Assets/Integration/fig2.png"/>
+			<img src="Webpage/Writeup_Assets/gifs/bloop8.gif"/>
+			<img src="Webpage/Writeup_Assets/Integration/integration.gif"/>
+			<img src="Webpage/Writeup_Assets/gifs/world_loop.gif"/>
+		</div>
+
+		<div class="right">
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/1.png"/>
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/3.png"/>
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/4.png"/>
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/6.png"/>
+			<img src="Webpage/Writeup_Assets/ZeroToMesh/Arm_Mesh.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/arm2.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/high_parameters.gif"/>
+			<img src="Webpage/Writeup_Assets/Mutation/leg1.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/mesh_mutation.gif"/>
+			<img src="Webpage/Writeup_Assets/Mutation/mesh_mutation5.png"/>
+			<img src="Webpage/Writeup_Assets/Mutation/legs_mutation.gif"/>
+			<img src="Webpage/Writeup_Assets/PutTogetherBody/UI.png"/>
+			<img src="Webpage/Writeup_Assets/PutTogetherBody/Creature1.png"/>
+			<img src="Webpage/Writeup_Assets/Movement/movement_good.png"/>
+			<img src="Webpage/Writeup_Assets/Movement/movement1.gif"/>
+			<img src="Webpage/Writeup_Assets/Integration/fig1.png"/>
+			<img src="Webpage/Writeup_Assets/gifs/bloop7.gif"/>
+			<img src="Webpage/Writeup_Assets/gifs/bloop.gif"/>
+		</div>
+	</div>
+
+	<script>
+	    let imgs = document.getElementsByClassName("background")
+	    let id = Math.floor(Math.random() * imgs.length)
+	    let img = imgs[id]
+	    img.style.opacity = 1
+	</script>
+</body>
+
+</html>
