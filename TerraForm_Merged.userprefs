@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Creatures/AnimateMesh.cs">
+    <Files>
+      <File FileName="Assets/Creatures/AttachMesh.cs" Line="20" Column="3" />
+      <File FileName="Assets/Creatures/AnimateMesh.cs" Line="142" Column="6" />
+      <File FileName="Assets/TerraForm/Scripts/GameWorld/AnimalGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Creatures/GenerateMeshFrames.cs" Line="1" Column="1" />
+      <File FileName="Assets/Creatures/GameInitializer.cs" Line="50" Column="24" />
+      <File FileName="Assets/Creatures/MeshedSkeleton.cs" Line="157" Column="29" />
+      <File FileName="Assets/TerraForm/Scripts/GameWorld/StartWorld.cs" Line="1" Column="1" />
+      <File FileName="Assets/TerraForm/Scripts/GameWorld/NoiseGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/TerraForm/Shaders/GrassFade.cs" Line="1" Column="1" />
+      <File FileName="Assets/Creatures/SphereCompleter.cs" Line="238" Column="50" />
+      <File FileName="Assets/Creatures/MeshGenerationUtils.cs" Line="122" Column="90" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

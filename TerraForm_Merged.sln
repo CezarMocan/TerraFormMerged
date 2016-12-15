@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E64DCA22-548F-E3C1-3E6F-242A2E24DB2B}") = "TerraForm_Merged", "Assembly-CSharp.csproj", "{508483A0-2594-9062-422B-1C104800D473}"
+EndProject
+Project("{E64DCA22-548F-E3C1-3E6F-242A2E24DB2B}") = "TerraForm_Merged", "Assembly-CSharp-Editor.csproj", "{B3CDA360-102D-7839-F366-E41A5B9DA0CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{508483A0-2594-9062-422B-1C104800D473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508483A0-2594-9062-422B-1C104800D473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508483A0-2594-9062-422B-1C104800D473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508483A0-2594-9062-422B-1C104800D473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3CDA360-102D-7839-F366-E41A5B9DA0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3CDA360-102D-7839-F366-E41A5B9DA0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3CDA360-102D-7839-F366-E41A5B9DA0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3CDA360-102D-7839-F366-E41A5B9DA0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
